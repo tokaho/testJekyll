@@ -18,7 +18,7 @@
 {% for member in site.stu -%}
   <li>
   <p> <img src="{{member.image}}"> @ {{ member.user }}({{ member.name }})
-    &nbsp;&nbsp;<li>  {{member.content | markdownify}}</li>
+    &nbsp;&nbsp;<li>  aa&nbsp;{{member.content | markdownify}}</li>
   </p>
   </li>
 {%- endfor -%}
