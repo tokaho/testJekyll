@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 | Things we will do             |
 | ------------------------------|
@@ -11,14 +11,14 @@
 |7.Get a status badge           |
 |8.Promote our repo             |
 
-#Code
+# Code
 
-#Contributors
+# Contributors
 <ul>
 {% for member in site.stu -%}
   <li>
   <p> <img src="{{member.image}}"> @ {{ member.user }}({{ member.name }})
-    &nbsp;&nbsp;<li>  aa&nbsp;{{member.content | markdownify}}</li>
+    &nbsp;&nbsp; <li>  aa&nbsp;{{member.content | markdownify}}</li>
   </p>
   </li>
 {%- endfor -%}
